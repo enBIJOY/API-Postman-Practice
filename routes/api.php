@@ -31,8 +31,8 @@ Route::middleware('auth:sanctum')->group(function(){
 });
 
 
-Route::get('/posts', [PostController::class, 'index']);       // GET ALL
-Route::get('/posts/{id}', [PostController::class, 'show']);   // GET SINGLE
-Route::post('/posts', [PostController::class, 'store']);     // CREATE
-Route::put('/posts/{id}', [PostController::class, 'update']); // UPDATE
-Route::delete('/posts/{id}', [PostController::class, 'destroy']); // DELETE
+// Route::get('/posts', [PostController::class, 'index']);       // GET ALL
+// Route::get('/posts/{id}', [PostController::class, 'show']);   // GET SINGLE
+// Route::post('/posts', [PostController::class, 'store']);     // CREATE
+// Route::put('/posts/{id}', [PostController::class, 'update']); // UPDATE
+// Route::delete('/posts/{id}', [PostController::class, 'destroy']); // DELETE
