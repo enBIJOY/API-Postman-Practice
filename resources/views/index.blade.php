@@ -8,7 +8,18 @@
   </head>
   <body>
     <div class="container">
-      <h1>API TE|S|T|I|N|G</h1>
+      <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+              <a class="navbar-brand">Navbar</a>
+              <form class="d-flex" role="search">
+                  <a href="{{ route('login') }}" class="btn btn-success" type="submit">login</a>
+                  <a href="{{ route('register') }}" class="btn btn-info" type="submit">register</a>
+              </form>
+          </div>
+      </nav>
+    </div>
+    <div class="container p-5">
+      <h1>API T|E|S|T|I|N|G</h1>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
